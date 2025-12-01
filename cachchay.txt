@@ -1,0 +1,2 @@
+-File IAM.pickle em có xóa để up lên github,thường em để nó trong folder File
+-Phần đg link dataset dạ là ở trong file params và file dataset(ở folder data)
