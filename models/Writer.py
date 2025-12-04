@@ -1,3 +1,8 @@
+import torch
+import torch.nn as nn
+from util.util import PosCNN, PositionalEncoding
+from params import *
+import torch.nn.functional as F
 from .Attention import Block
 class LayerNorm(nn.Module):
     def forward(self, x):
