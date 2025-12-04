@@ -3,6 +3,8 @@ import torch.nn as nn
 from util.util import PosCNN, PositionalEncoding
 from params import *
 import torch.nn.functional as F
+
+#Writer goc
 from .Attention import Block
 class LayerNorm(nn.Module):
     def forward(self, x):
@@ -191,4 +193,3 @@ class strLabelConverter(object):
                         t[index:index + l], torch.IntTensor([l]), raw=raw))
                 index += l
             return texts
-        
